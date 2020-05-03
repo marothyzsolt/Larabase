@@ -1,0 +1,60 @@
+.primary-red,
+.bg-primary {
+  background-color: #c52e26 !important;
+}
+
+.bg-secondary {
+  background-color: #004a99 !important;
+}
+
+.cursor-pointer {
+  tbody {
+    tr {
+      cursor:pointer;
+    }
+  }
+}
+
+.v-input.small {
+  margin-bottom: 5px !important;
+
+  .v-input__control {
+  }
+
+  .v-input__slot {
+    min-height: 40px !important;
+    max-height: 40px !important;
+
+    .v-label {
+      top: 10px !important;
+
+      &.v-label--active {
+        transform: translateY(-17px) scale(0.75) !important;
+      }
+    }
+
+    fieldset {
+      height: 45px;
+    }
+    .v-text-field__slot {
+      height: 42px;
+    }
+  }
+
+  .v-input__append-inner {
+    margin-top: 8px !important;
+    .v-icon {
+      font-size: 14px;
+      margin-left: 15px;
+    }
+  }
+
+  .v-text-field__details {
+    padding: 0;
+    margin-left: -5px;
+  }
+}
+
+.v-menu__content {
+  background: #fff3f3 !important;
+}
